@@ -5,21 +5,21 @@ ClimatePulse is an AI-powered environmental intelligence platform designed to de
 
 The platform combines:
 
-- 📷 Citizen-submitted images
-- 🤖 Gemini multimodal AI analysis
-- 🌫️ Real-time and forecast environmental data
-- 📊 Evidence-based pollution scoring
-- 📈 24-hour pollution forecasting
-- 📍 Pollution hotspot detection
-- 🚨 Automated municipal alerts
-- 🗺️ Interactive hotspot visualization
-- 🏛️ Municipal command-center dashboard
+- Citizen-submitted images
+- Gemini multimodal AI analysis
+- Real-time and forecast environmental data
+- Evidence-based pollution scoring
+- 24-hour pollution forecasting
+- Pollution hotspot detection
+- Automated municipal alerts
+- Interactive hotspot visualization
+- Municipal command-center dashboard
 
 The goal is to move from **reactive pollution reporting** to **proactive, evidence-based environmental monitoring**.
 
 ---
 
-# 🎯 Problem Statement
+# Problem Statement
 
 Urban pollution can change significantly between neighborhoods and over short periods of time.
 
@@ -38,7 +38,7 @@ ClimatePulse addresses this by combining **visual evidence + environmental measu
 
 ---
 
-# 💡 Solution
+# Solution
 
 ClimatePulse follows an evidence-fusion approach.
 
@@ -62,7 +62,7 @@ This creates a pipeline from:
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
                     ┌─────────────────────────┐
@@ -137,7 +137,7 @@ This creates a pipeline from:
 
 ---
 
-# 🔄 End-to-End Workflow
+# End-to-End Workflow
 
 ## 1. Citizen Report
 
@@ -192,7 +192,7 @@ This converts an unstructured image into structured environmental evidence.
 
 ---
 
-# 🌫️ Environmental Intelligence
+# Environmental Intelligence
 
 ClimatePulse retrieves environmental information using the Open-Meteo APIs.
 
@@ -219,7 +219,7 @@ and retrieves environmental conditions for that location.
 
 ---
 
-# 📊 Evidence Fusion
+# Evidence Fusion
 
 A key part of ClimatePulse is that the system does not depend only on the citizen image or only on environmental measurements.
 
@@ -248,7 +248,7 @@ This allows the platform to distinguish between:
 
 ---
 
-# 📍 Pollution Hotspot Detection
+# Pollution Hotspot Detection
 
 The `hotspots.py` module evaluates multiple locations.
 
@@ -271,7 +271,7 @@ The system currently supports arbitrary latitude/longitude locations, rather tha
 
 ---
 
-# 📈 24-Hour Pollution Forecast
+# 24-Hour Pollution Forecast
 
 ClimatePulse analyzes hourly pollution data to estimate near-term pollution risk.
 
@@ -321,7 +321,7 @@ The chart is implemented using native SVG rather than depending on an external c
 
 ---
 
-# 🚨 Automated Municipal Alerts
+# Automated Municipal Alerts
 
 ClimatePulse includes an automated municipal alert layer.
 
