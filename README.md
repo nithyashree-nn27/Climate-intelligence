@@ -427,7 +427,7 @@ The frontend communicates with the FastAPI backend using HTTP requests.
 
 ---
 
-# ⚙️ Backend
+# Backend
 
 The backend is implemented using **FastAPI**.
 
@@ -593,7 +593,7 @@ If a report indicates that no watermark was detected, this should be treated as 
 
 ---
 
-# 🔌 API Endpoints
+# API Endpoints
 
 ## Health Check
 
